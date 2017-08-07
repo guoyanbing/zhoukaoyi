@@ -1,0 +1,156 @@
+/* line 1, style.scss */
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+/* line 11, style.scss */
+.header {
+  font-size: 0.16rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  position: relative;
+  border-bottom: 1px solid #ccc; }
+  /* line 18, style.scss */
+  .header .head-right {
+    text-align: center;
+    display: flex;
+    padding: 0 1rem; }
+    /* line 22, style.scss */
+    .header .head-right li {
+      flex: 1; }
+  /* line 27, style.scss */
+  .header .dw {
+    position: absolute;
+    right: .15rem;
+    top: 0;
+    color: #727272;
+    font-size: 0.12rem; }
+    /* line 32, style.scss */
+    .header .dw i {
+      font-size: 0.18rem; }
+  /* line 36, style.scss */
+  .header .bg {
+    border-bottom: .01rem solid #fc0010;
+    color: #fc0010; }
+
+/* line 45, style.scss */
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  /* line 48, style.scss */
+  .content .con-list {
+    width: 100%;
+    height: .4rem;
+    background: #eee; }
+    /* line 52, style.scss */
+    .content .con-list .list-li {
+      display: flex;
+      padding: .07rem .1rem; }
+      /* line 55, style.scss */
+      .content .con-list .list-li li {
+        line-height: .25rem;
+        font-size: .14rem;
+        text-align: center;
+        flex: 1;
+        background: #fff;
+        border: .01rem solid #eee; }
+      /* line 63, style.scss */
+      .content .con-list .list-li .bg1 {
+        background: #fe4d4d;
+        color: #fff; }
+  /* line 69, style.scss */
+  .content .list-dw {
+    width: 100%; }
+    /* line 71, style.scss */
+    .content .list-dw .dw-tex {
+      width: 100%;
+      display: flex; }
+      /* line 74, style.scss */
+      .content .list-dw .dw-tex li {
+        flex: 1;
+        text-align: center;
+        font-size: .12rem;
+        line-height: .4rem; }
+        /* line 79, style.scss */
+        .content .list-dw .dw-tex li i {
+          font-size: .16rem;
+          color: #ccc; }
+  /* line 86, style.scss */
+  .content .box {
+    width: 100%;
+    height: .9rem;
+    border-bottom: .01rem solid #eee;
+    position: relative; }
+    /* line 91, style.scss */
+    .content .box .box-yi {
+      padding-left: .4rem;
+      line-height: .3rem; }
+      /* line 94, style.scss */
+      .content .box .box-yi b {
+        border: .01rem solid #7fdd81;
+        color: #7fdd81;
+        border-radius: .3rem;
+        padding: 0 .01rem;
+        float: right;
+        margin-right: .1rem;
+        line-height: .16rem;
+        margin-top: .06rem; }
+    /* line 105, style.scss */
+    .content .box .box-er {
+      width: 100%;
+      display: flex;
+      line-height: .3rem; }
+      /* line 109, style.scss */
+      .content .box .box-er a {
+        flex: 1;
+        text-align: center; }
+        /* line 112, style.scss */
+        .content .box .box-er a i {
+          color: #ccc; }
+      /* line 116, style.scss */
+      .content .box .box-er .bg2 {
+        color: #95d5f7; }
+      /* line 119, style.scss */
+      .content .box .box-er .bg3 {
+        color: #f3bb4c; }
+      /* line 122, style.scss */
+      .content .box .box-er .da {
+        font-size: .2rem; }
+    /* line 126, style.scss */
+    .content .box .box-san {
+      width: 100%;
+      display: flex; }
+      /* line 129, style.scss */
+      .content .box .box-san a {
+        flex: 1;
+        text-align: center; }
+    /* line 134, style.scss */
+    .content .box .img {
+      position: absolute;
+      left: 0;
+      top: 0; }
+
+/* line 143, style.scss */
+.footer {
+  height: 0.5rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  display: flex; }
+  /* line 148, style.scss */
+  .footer dl {
+    flex: 1;
+    text-align: center;
+    padding-top: .05rem; }
+    /* line 151, style.scss */
+    .footer dl dd {
+      padding-top: .05rem; }
+  /* line 155, style.scss */
+  .footer .bg4 {
+    color: #fa4444; }
+
+/*# sourceMappingURL=style.css.map */
